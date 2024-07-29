@@ -53,10 +53,22 @@ h1 {
     margin-right: 5%;
     padding-left: 20px;
     border-radius: 10px;
+    border-left: 10px solid;
 }
 
 .experience-area {
     background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: left;
+
+}
+
+#web-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+
+footer p {
+    text-align: center;
 }
